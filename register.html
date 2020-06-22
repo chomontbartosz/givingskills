@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giving Skills</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico and icon.png in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <meta name="theme-color" content="#fff">
+</head>
+
+<body>
+
+  <!-- Bluebar at the top -->
+<div class="bluebar">
+    <h1 class="main-logo">Giving Skills</h1>
+    <div class="login_form_wrapper">
+        <form id="login-form" action="#" method="post" novalidate="1" onsubmit>
+            <input type="email" class="login_form_input_box" name="email" id="email" placeholder="Adres Email">
+            <input type="password" class="login_form_input_box" name="pass" id="pass" placeholder="Hasło">
+            <label class="login_form_button" id="loginbutton">
+                <input value="Zaloguj" aria-label="Zaloguj" type="submit">
+            </label>
+        </form>
+    </div>
+</div>
+
+  <!-- Content container -->
+  <div class="gs_content" id="globalContainer" role="main">
+    <div class="reg_box_info">
+        <h2 style="text-align:center; padding-top: 100px">Informacje o Projekcie</h2>
+    </div>  
+    <div class="reg_box_form">
+        <h2>Utwórz Konto</h2>
+        <div>
+            <form method="post" id="register" name="register" action="#" onsubmit="return false;">
+                <div id="fullname_field" class="register_field_container">
+                    <input type="text" class="inputtext" name="reg_firstname" value aria-required="true" placeholder="Imię" aria-label="Imię" style="width:50%; padding: 8px 10px; margin-right: 8px; font-size: 18px; color: #999; border-radius: 5px; border: 1px solid #bdc7d8;">
+                    <input type="text" class="inputtext" name="reg_lastname" value aria-required="true" placeholder="Nazwisko" aria-label="Nazwisko" style="width:50%; padding: 8px 10px; font-size: 18px; color: #999; border-radius: 5px; border: 1px solid #bdc7d8;">
+                </div>
+                <div id="mobile_email_field" class="register_field_container">
+                    <input type="text" class="inputtext" name="reg_email" value aria-required="true" placeholder="Numer teleonu lub Email" aria-label="Numer telefonu lub Email" style="width:100%; padding: 8px 10px; font-size: 18px; color: #999; border-radius: 5px; border: 1px solid #bdc7d8;">
+                </div>
+                <div id="password_field" class="register_field_container">
+                    <input type="password" class="inputtext" name="reg_password" value aria-required="true" placeholder="Hasło" aria-label="Hasło" style="width:100%; padding: 8px 10px; font-size: 18px; color: #999; border-radius: 5px; border: 1px solid #bdc7d8;">
+                </div>
+                <div class="register_field_container">
+                    <button type="submit" name="websubmit" class="register_button" style="width:100%;background-image: linear-gradient(to left, #000, #434343 50%); color:#fff; padding: 8px 10px; font-size: 18px; border-radius: 5px; border: 1px solid #bdc7d8; cursor:pointer; font-weight:bold">Zarejestruj się</button>
+                </div>
+            </form>
+        </div>
+      </div>
+  </div>
+
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

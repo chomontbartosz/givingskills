@@ -1,0 +1,12 @@
+@media screen and (max-width:849px) {
+    .gs_content {
+        flex-direction: column-reverse;
+    }
+
+    .reg_box_form, .reg_box_info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

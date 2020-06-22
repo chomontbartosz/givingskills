@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giving Skills</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico and icon.png in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <meta name="theme-color" content="#fff">
+</head>
+
+<body>
+
+  <!-- Bluebar at the top -->
+<div class="bluebar">
+    <h1 class="main-logo">Giving Skills</h1>
+    <div class="login_form_wrapper">
+        <form id="login-form" action="#" method="post" novalidate="1" onsubmit>
+            <input type="email" class="login_form_input_box" name="email" id="email" placeholder="Adres Email">
+            <input type="password" class="login_form_input_box" name="pass" id="pass" placeholder="Hasło">
+            <label class="login_form_button" id="loginbutton">
+                <input value="Zaloguj" aria-label="Zaloguj" type="submit">
+            </label>
+        </form>
+    </div>
+</div>
+
+  <!-- Content container -->
+  <div class="user_profile_grid" id="globalContainer" role="main" style="display: flex;position: relative; max-width:1000px; margin: 80px auto 40px auto;">
+    <div style="width: 25%; vertical-align:top; padding:0; margin:0" class="sidebar-container col-3">
+        <div style="display:inline-grid; height: auto; text-align: center; width:100%" class="sidebar-content">
+            <div class="user-image" style="grid-area: user-image; background-image: url(https://kansai-resilience-forum.jp/wp-content/uploads/2019/02/IAFOR-Blank-Avatar-Image-1.jpg); background-position: center; background-size: cover; border-radius:50%; height: 150px; margin: 0 auto 25px; width: 150px;">
+            </div>
+            <div class="user-info-wrapper" style="grid-area:user-info">
+                <div class="user-info-profile" style="display:flex; align-items: flex-start; flex-direction: column;margin-bottom:20px;">
+                    <div class="givs-profession" style="margin: 0 auto; min-height: 25px; width:100%;">
+                        <span class="givs-profession-tag" style="display:block;width:100%; margin: 10px 0;text-transform: uppercase; font-size: 13px; padding: 3px 8px; line-height: 18px; font-weight: 700px; color:#000; background:#f6f6f6; border-radius: 5px">
+                            BOX1
+                        </span>
+                        <span class="givs-profession-tag" style="display:block; width:100%; text-transform: uppercase; font-size: 13px; padding: 3px 8px; line-height: 18px; font-weight: 700px; color:#000; background:#f6f6f6; border-radius: 5px">
+                            BOX2
+                        </span>
+                    </div> 
+                </div>
+            </div>
+            <div class="cta-button follow-button-wrapper" style="grid-area:follow">
+                <a href="#" class="btn-follow" title="Follow" rel="nofollow" style="width:32px; height:32px; font-size:15px; line-height: 20px; border-radius:20px; background:#f6f6f6; text-decoration: none; text-align:center;display:inline-block; font-weight:700; color: #000"></a> 
+                <a href="#" class="btn-follow" title="Follow" rel="nofollow" style="width:32px; height:32px; font-size:15px; line-height: 20px; border-radius:20px; background:#f6f6f6; text-decoration: none; text-align:center;display:inline-block; font-weight:700; color: #000"></a> 
+                <a href="#" class="btn-follow" title="Follow" rel="nofollow" style="width:32px; height:32px; font-size:15px; line-height: 20px; border-radius:20px; background:#f6f6f6; text-decoration: none; text-align:center;display:inline-block; font-weight:700; color: #000"></a> 
+            </div> 
+            <span style="padding-top:16px;">Masz 8 kursów</span>
+            <div class="follow-stats" style="display:flex; flex-direction:row; justify-content:center; padding: 16px 0">
+                <a href="#" style="text-decoration:none; color:#000">
+                    <div class="follow-stat followers">
+                        <h2 style="font-size:22px; font-weight:700; margin-bottom: 10px">Masz rozpoczęty</h2>
+                        <span style="font-size:1em">1 kurs</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>  
+    <div style="min-height: 450px; width: 75%; padding: 0 15px 0 40px; display:flex; flex-direction: column; justify-content: flex-start" class="content-col col-9">
+        <div style="width:100%; border-radius: 3px; border: 1px solid #dddfe2; background: #f6f6f6; margin-bottom: 20px">
+            <div style="display:flex; padding:12px 12px 0 ">
+                    <h5 style="color:#333; font-weight: normal; font-size:16px; padding-bottom:10px">Czego uczą się moi znajomi</h5>                
+            </div>
+            <div style="padding: 10px 12px; width:100%;">
+                <ul style="width:100%;display:flex;flex-wrap:wrap;list-style-type:none;">
+                    <li style="width:calc((100% - 48px)/4); display:flex; flex-direction:column; margin:12px 6px 0">
+                        <div style="flex:1; display:flex;">
+                            <section style="flex:1; text-align:center; border-radius:5px; box-shadow:0 0 0 1px rgba(0,0,0,.15)">
+                                <span style="display:block;width:100%;height:62px;background:#000; border-radius:5px"></span>
+                                <div style="bottom:42px; position:relative">
+                                    <span style="display:block; width:96px;height:96px;background:#fff; border-radius:50%; margin: 0 auto;"></span>
+                                    <span style="display:block; padding: 10px 0">Imię nazwisko</span>
+                                    <span style="display:block; padding: 5px 0">Uczy się: Gry na gitarze</span>
+                                    <button style="width:80%; margin-top:10px; padding:5px 10px; border:2px solid #000; border-radius:5px;font-weight:bold">Zobacz</button>
+                                </div>     
+                            </section>
+                        </div>
+                    </li>
+                    <li style="width:calc((100% - 48px)/4); display:flex; flex-direction:column; margin:12px 6px 0">
+                        <div style="flex:1; display:flex;">
+                            <section style="flex:1; text-align:center; border-radius:5px; box-shadow:0 0 0 1px rgba(0,0,0,.15)">
+                                <span style="display:block;width:100%;height:62px;background:#000; border-radius:5px"></span>
+                                <div style="bottom:42px; position:relative">
+                                    <span style="display:block; width:96px;height:96px;background:#fff; border-radius:50%; margin: 0 auto;"></span>
+                                    <span style="display:block; padding: 10px 0">Imię nazwisko</span>
+                                    <span style="display:block; padding: 5px 0">Uczy się: Gry na gitarze</span>
+                                    <button style="width:80%; margin-top:10px; padding:5px 10px; border:2px solid #000; border-radius:5px;font-weight:bold">Zobacz</button>
+                                </div>     
+                            </section>
+                        </div>
+                    </li>
+                    <li style="width:calc((100% - 48px)/4); display:flex; flex-direction:column; margin:12px 6px 0">
+                        <div style="flex:1; display:flex;">
+                            <section style="flex:1; text-align:center; border-radius:5px; box-shadow:0 0 0 1px rgba(0,0,0,.15)">
+                                <span style="display:block;width:100%;height:62px;background:#000; border-radius:5px 5px 0 0"></span>
+                                <div style="bottom:42px; position:relative">
+                                    <span style="display:block; width:96px;height:96px;background:#fff; border-radius:50%; margin: 0 auto;"></span>
+                                    <span style="display:block; padding: 10px 0">Imię nazwisko</span>
+                                    <span style="display:block; padding: 5px 0">Uczy się: Gry na gitarze</span>
+                                    <button style="width:80%; margin-top:10px; padding:5px 10px; border:2px solid #000; border-radius:5px;font-weight:bold">Zobacz</button>
+                                </div>     
+                            </section>
+                        </div>
+                    </li>
+                    <li style="width:calc((100% - 48px)/4); display:flex; flex-direction:column; margin:12px 6px 0">
+                        <div style="flex:1; display:flex;">
+                            <section style="flex:1; text-align:center; border-radius:5px; box-shadow:0 0 0 1px rgba(0,0,0,.15)">
+                                <span style="display:block;width:100%;height:62px;background:#000; border-radius:5px"></span>
+                                <div style="bottom:42px; position:relative">
+                                    <span style="display:block; width:96px;height:96px;background:#fff; border-radius:50%; margin: 0 auto;"></span>
+                                    <span style="display:block; padding: 10px 0">Imię nazwisko</span>
+                                    <span style="display:block; padding: 5px 0">Uczy się: Gry na gitarze</span>
+                                    <button style="width:80%; margin-top:10px; padding:5px 10px; border:2px solid #000; border-radius:5px;font-weight:bold">Zobacz</button>
+                                </div>     
+                            </section>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="width:100%; border-radius: 3px; border: 1px solid #dddfe2; background: #f6f6f6; margin-bottom: 20px">
+            <div style="padding: 10px 12px">
+                <div style="width:100%; display:flex; justify-content:flex-start; align-items:center">
+                    <span style="background:#fff;width:125px;height:125px; border-radius:50%;"></span>
+                    <span style="padding-left:50px; font-size:20px">Wojtek uczy się gry na gitarze</span>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%; border-radius: 3px; border: 1px solid #dddfe2; background: #f6f6f6; margin-bottom: 20px">
+            <div style="display:flex; padding:12px 12px 0 ">
+                    <h5 style="color:#333; font-weight: normal; font-size:16px; padding-bottom:10px">Proponowane znajomości</h5>                
+            </div>
+            <div style="padding: 10px 12px">
+                <div style="width:100%; display:flex; justify-content:space-between;">
+                    <span style="background:#fff;width:100px;height:100px; border-radius:50%;"></span>
+                    <span style="background:#fff;width:100px;height:100px; border-radius:50%;"></span>
+                    <span style="background:#fff;width:100px;height:100px; border-radius:50%;"></span>
+                    <span style="background:#fff;width:100px;height:100px; border-radius:50%;"></span>
+                    <span style="background:#fff;width:100px;height:100px; border-radius:50%;"></span>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%; border-radius: 3px; border: 1px solid #dddfe2; background: #f6f6f6;">
+            <div style="display:flex; padding:12px 12px 0 ">
+                <img src="https://kansai-resilience-forum.jp/wp-content/uploads/2019/02/IAFOR-Blank-Avatar-Image-1.jpg" style="border-radius: 50%; width: 40px; height:40px; margin-right:10px">
+                <div style="width:100%">
+                    <h5 style="color:#616770; font-weight: normal; font-size:14px"><span style="color:#385898; font-weight:600">Jessica</span> dodała nowy materiał z <span style="color:#385898">xxx</span>.</h5>
+                    <p style="color:#616770; font-size:12px;">Wczoraj o 20:18 · Haga, Holandia</p>
+                </div>
+            </div>
+            <img src="https://us.123rf.com/450wm/rawpixel/rawpixel1901/rawpixel190100432/126248883-colorful-holographic-gradient-background-design.jpg?ver=6" style="width:100%; margin-top:20px">
+            <div style="padding: 10px 12px">
+                <div style="width:100%; display:flex; justify-content:space-between;>
+                    <span style="color:#606770">John i 20 innych użytkowników</span>
+                    <span style="color:#606770">5 komentarzy</span>
+                </div>
+                <div style="width:100%; display:flex; justify-content:space-between; padding: 15px 0">
+                    <span style="font-size:13px;font-weight:600;color:#606770">Lubię to!</span>
+                    <span style="font-size:13px;font-weight:600;color:#606770">Komentarz</span>
+                    <span style="font-size:13px;font-weight:600;color:#606770">Udostępnij</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

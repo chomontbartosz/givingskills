@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giving Skills</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico and icon.png in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <meta name="theme-color" content="#fff">
+</head>
+
+<body>
+
+  <!-- Bluebar at the top -->
+<div class="bluebar">
+    <h1 class="main-logo">Giving Skills</h1>
+    <div class="login_form_wrapper">
+        <form id="login-form" action="#" method="post" novalidate="1" onsubmit>
+            <input type="email" class="login_form_input_box" name="email" id="email" placeholder="Adres Email">
+            <input type="password" class="login_form_input_box" name="pass" id="pass" placeholder="Hasło">
+            <label class="login_form_button" id="loginbutton">
+                <input value="Zaloguj" aria-label="Zaloguj" type="submit">
+            </label>
+        </form>
+    </div>
+</div>
+
+  <!-- Content container -->
+  <div class="user_profile_grid" id="globalContainer" role="main" style="display: flex;position: relative; max-width:1000px; margin: 80px auto 40px auto;">
+    <div style="width: 25%; vertical-align:top; padding:0; margin:0" class="sidebar-container col-3">
+        <div style="display:inline-grid; height: auto; text-align: center; width:100%" class="sidebar-content">
+            <div class="user-image" style="grid-area: user-image; background-image: url(https://kansai-resilience-forum.jp/wp-content/uploads/2019/02/IAFOR-Blank-Avatar-Image-1.jpg); background-position: center; background-size: cover; border-radius:50%; height: 150px; margin: 0 auto 25px; width: 150px;">
+            </div>
+            <div class="user-info-wrapper" style="grid-area:user-info">
+                <div class="user-info-profile" style="display:flex; align-items: flex-start; flex-direction: column;margin-bottom:20px;">
+                    <h1 style="display:block; width:100%;text-align:center; font-weight:400;margin-bottom:10px;">Imię Nazwisko</h1>
+                    <div class="givs-profession" style="margin: 0 auto; min-height: 25px">
+                        <span class="givs-profession-tag" style="margin-right: 5px;text-transform: uppercase; font-size: 13px; padding: 3px 8px; line-height: 18px; font-weight: 700px; color:#fff; background:#000; vertical-align:middle; border-radius: 5px">
+                            Skill X
+                        </span>
+                        <span class="givs-profession-tag" style="text-transform: uppercase; font-size: 13px; padding: 3px 8px; line-height: 18px; font-weight: 700px; color:#fff; background:#000; vertical-align:middle; border-radius: 5px">
+                            Skill Y
+                        </span>
+                    </div> 
+                </div>
+            </div>
+            <div class="cta-button follow-button-wrapper" style="grid-area:follow">
+                <a href="#" class="btn-follow" title="Follow" rel="nofollow" style="padding: 6px 13px 7px; min-width:75px; font-size:15px; line-height: 20px; border-radius:20px; border: 2px solid #000; text-decoration: none; text-align:center;display:inline-block; font-weight:700; color: #000">Follow</a> 
+            </div> 
+            <div class="follow-stats" style="display:flex; flex-direction:row; justify-content:space-between; padding: 16px 0">
+                <a href="#" style="text-decoration:none; color:#000">
+                    <div class="follow-stat followers">
+                        <h2 style="font-size:22px; font-weight:700; margin-bottom: 0">33</h2>
+                        <span style="font-size:.7em">Obserwujących</span>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration:none; color:#000">
+                    <div class="follow-stat following">
+                        <h2 style="font-size:22px; font-weight:700; margin-bottom: 0">30</h2>
+                        <span style="font-size:.7em">Obserwowanych</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>  
+    <div style="min-height: 450px; width: 75%; padding: 0 15px 0 40px; display:flex; flex-direction: column; justify-content: flex-start" class="content-col col-9">
+        <div class="section">
+            <h2>Opis Użytkownika</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a rutrum felis, egestas dignissim ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla libero mauris, efficitur sed ultrices non, convallis sit amet nibh. Nulla nisl ligula, congue non ligula eget, pellentesque commodo libero. Cras suscipit ac urna et luctus. Aliquam volutpat scelerisque tortor, quis egestas ex tincidunt vel. Phasellus venenatis imperdiet orci, ac vehicula mauris viverra eu. Nulla faucibus et urna ut feugiat. In ut dictum neque. Nulla tristique laoreet fringilla. Praesent sed imperdiet mauris. Nunc elit risus, sagittis vitae imperdiet et, auctor non lorem.</p>
+            <p style="padding-top:20px">In dui erat, hendrerit vitae tellus sed, cursus ornare nibh. Proin luctus dolor purus, eget feugiat mi laoreet quis. Sed eu semper diam. Duis aliquet venenatis lorem, at feugiat erat sollicitudin a. Nunc hendrerit, dolor sit amet pharetra sollicitudin, magna nisi sagittis felis, nec commodo eros felis vitae nulla. Cras auctor, orci in rhoncus rutrum, turpis odio congue ex, ut porta lectus erat ac diam. Praesent mi sapien, laoreet in rutrum vel, euismod in est. Nam tristique blandit nibh eu lobortis. Duis tempus nulla neque, in tempor turpis dictum in. Sed et venenatis quam, id vestibulum mauris. Integer rhoncus, elit vitae porttitor dapibus, quam tellus varius massa, quis mollis sem massa quis felis. Morbi et convallis nisi. Donec ultricies efficitur placerat. Vestibulum finibus dui porta eleifend accumsan. Duis nec mattis tellus, id lobortis purus.</p>
+        </div>
+        <div class="section">
+            <h2>Ukończone kursy</h2>
+            <div style="width: 100%; display:flex; flex-direction:row; justify-content: space-between">
+                <div style="width:33%; background:#f6f6f6; margin-right:10px; border-radius:10px; cursor:pointer; box-shadow:0 2px 4px 0 rgba(184,184,184,.5)">
+                    <img src="https://static.skillshare.com/uploads/video/thumbnails/6129634259001/448-252" style="width:100%; border-radius: 8px 8px 0 0">
+                    <div class="course-card_content" style="padding: 8px">
+                        <div class="course-card_stats" style="display:flex; justify-content:flex-end; flex-direction:row-reverse; flex-wrap:wrap-reverse; height:20px; line-height:20px; overflow:hidden; margin-bottom:12px">
+                            <div class="course_length" style="text-align:right; min-width:55px; flex-grow: 1; font-size:13px">
+                                1h 30m
+                            </div>
+                            <span class="course_students" style="flex-grow: 1; min-width:84px; font-size:13px">1000 osób się uczy</span>
+                        </div>
+                        <div class="course-card_title">
+                            <p style="font-weight: 700; min-height:60px; line-height: 20px; margin: 0 0 16px; overflow: hidden; display:block; text-align:left;">
+                                Nam tristique blandit nibh eu lobortis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:33%; background:#f6f6f6; margin-right:10px; border-radius:10px; cursor:pointer; box-shadow:0 2px 4px 0 rgba(184,184,184,.5)">
+                    <img src="https://static.skillshare.com/uploads/video/thumbnails/9143bf777bd6145be7011a68cc4ac26e/448-252" style="width:100%; border-radius: 8px 8px 0 0">
+                    <div class="course-card_content" style="padding: 8px">
+                        <div class="course-card_stats" style="display:flex; justify-content:flex-end; flex-direction:row-reverse; flex-wrap:wrap-reverse; height:20px; line-height:20px; overflow:hidden; margin-bottom:12px">
+                            <div class="course_length" style="text-align:right; min-width:55px; flex-grow: 1; font-size:13px">
+                                1h 30m
+                            </div>
+                            <span class="course_students" style="flex-grow: 1; min-width:84px; font-size:13px">1000 osób się uczy</span>
+                        </div>
+                        <div class="course-card_title">
+                            <p style="font-weight: 700; min-height:60px; line-height: 20px; margin: 0 0 16px; overflow: hidden; display:block; text-align:left;">
+                                Nam tristique blandit nibh eu lobortis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:33%; background:#f6f6f6; margin-right:10px; border-radius:10px; cursor:pointer; box-shadow:0 2px 4px 0 rgba(184,184,184,.5)">
+                    <img src="https://static.skillshare.com/uploads/video/thumbnails/4906e09e1cfe7bb97c6c26c4d2f767cc/448-252" style="width:100%; border-radius: 8px 8px 0 0">
+                    <div class="course-card_content" style="padding: 8px">
+                        <div class="course-card_stats" style="display:flex; justify-content:flex-end; flex-direction:row-reverse; flex-wrap:wrap-reverse; height:20px; line-height:20px; overflow:hidden; margin-bottom:12px">
+                            <div class="course_length" style="text-align:right; min-width:55px; flex-grow: 1; font-size:13px">
+                                1h 30m
+                            </div>
+                            <span class="course_students" style="flex-grow: 1; min-width:84px; font-size:13px">1000 osób się uczy</span>
+                        </div>
+                        <div class="course-card_title">
+                            <p style="font-weight: 700; min-height:60px; line-height: 20px; margin: 0 0 16px; overflow: hidden; display:block; text-align:left;">
+                                Nam tristique blandit nibh eu lobortis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
